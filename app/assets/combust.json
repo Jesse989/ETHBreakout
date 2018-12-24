@@ -1,0 +1,293 @@
+{
+	"textures": [
+		{
+			"image": "combust.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 949,
+				"h": 130
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "fire1_ 13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 14,
+						"w": 49,
+						"h": 113
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 49,
+						"h": 113
+					}
+				},
+				{
+					"filename": "fire1_ 07.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 13,
+						"w": 75,
+						"h": 115
+					},
+					"frame": {
+						"x": 52,
+						"y": 1,
+						"w": 75,
+						"h": 115
+					}
+				},
+				{
+					"filename": "fire1_ 12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 11,
+						"w": 72,
+						"h": 117
+					},
+					"frame": {
+						"x": 129,
+						"y": 1,
+						"w": 72,
+						"h": 117
+					}
+				},
+				{
+					"filename": "fire1_ 10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 1,
+						"w": 72,
+						"h": 123
+					},
+					"frame": {
+						"x": 203,
+						"y": 1,
+						"w": 72,
+						"h": 123
+					}
+				},
+				{
+					"filename": "fire1_ 09.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 0,
+						"w": 72,
+						"h": 125
+					},
+					"frame": {
+						"x": 277,
+						"y": 1,
+						"w": 72,
+						"h": 125
+					}
+				},
+				{
+					"filename": "fire1_ 05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 2,
+						"w": 78,
+						"h": 126
+					},
+					"frame": {
+						"x": 351,
+						"y": 1,
+						"w": 78,
+						"h": 126
+					}
+				},
+				{
+					"filename": "fire1_ 01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 1,
+						"w": 70,
+						"h": 127
+					},
+					"frame": {
+						"x": 431,
+						"y": 1,
+						"w": 70,
+						"h": 127
+					}
+				},
+				{
+					"filename": "fire1_ 02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 0,
+						"w": 67,
+						"h": 128
+					},
+					"frame": {
+						"x": 503,
+						"y": 1,
+						"w": 67,
+						"h": 128
+					}
+				},
+				{
+					"filename": "fire1_ 03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 0,
+						"w": 74,
+						"h": 128
+					},
+					"frame": {
+						"x": 572,
+						"y": 1,
+						"w": 74,
+						"h": 128
+					}
+				},
+				{
+					"filename": "fire1_ 04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 0,
+						"w": 77,
+						"h": 128
+					},
+					"frame": {
+						"x": 648,
+						"y": 1,
+						"w": 77,
+						"h": 128
+					}
+				},
+				{
+					"filename": "fire1_ 06.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 0,
+						"w": 72,
+						"h": 128
+					},
+					"frame": {
+						"x": 727,
+						"y": 1,
+						"w": 72,
+						"h": 128
+					}
+				},
+				{
+					"filename": "fire1_ 08.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 0,
+						"w": 69,
+						"h": 128
+					},
+					"frame": {
+						"x": 801,
+						"y": 1,
+						"w": 69,
+						"h": 128
+					}
+				},
+				{
+					"filename": "fire1_ 11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 0,
+						"w": 76,
+						"h": 128
+					},
+					"frame": {
+						"x": 872,
+						"y": 1,
+						"w": 76,
+						"h": 128
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:42a8150b876041fe656a435aec37f14f:480553a58173bf7cbe11aefc42a29fd6:9a5681ea6f59546aca97c903bfb5e52f$"
+	}
+}
