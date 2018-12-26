@@ -1,15 +1,11 @@
-import 'phaser';
-
-import BootScene from './scenes/BootScene.js';
-import GameScene from './scenes/GameScene.js';
-import BreakOutScene from './scenes/BreakOutScene.js';
-import UIScene from './scenes/UIScene.js';
-import StartScene from './scenes/StartScene.js';
-
-import getWeb3 from "./utils/getWeb3";
+import 'phaser' 
+import BootScene from './scenes/BootScene.js'
+import GameScene from './scenes/GameScene.js'
+import BreakOutScene from './scenes/BreakOutScene.js'
+import UIScene from './scenes/UIScene.js'
+import StartScene from './scenes/StartScene.js'
+import getWeb3 from "./utils/getWeb3"
 import ipfs from './ipfs'
-
-
 
 //config file
 var config = {
@@ -26,6 +22,6 @@ var config = {
     }
   },
   scene: [ BootScene, GameScene, BreakOutScene, UIScene, StartScene ]
-};
+}
 
-var game = new Phaser.Game(config);
+var game = new Phaser.Game(config)

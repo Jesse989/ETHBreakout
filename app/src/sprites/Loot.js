@@ -1,17 +1,17 @@
 export default class Loot extends Phaser.Physics.Arcade.Sprite{
   constructor(scene, x, y) {
-    super(scene, x, y);
-    this.id = '_' + Math.random().toString(36).substr(2, 9);
-    this.x = x;
-    this.y = y;
-    this.setTexture('gold', '0');
-    this.depth = this.y + 64;
+    super(scene, x, y)
+    this.id = '_' + Math.random().toString(36).substr(2, 9)
+    this.x = x
+    this.y = y
+    this.setTexture('gold', '0')
+    this.depth = this.y + 64
     this.setInteractive({useHandCursor: true})
       .on('pointerup', this.onClick, this)
       .on('pointerover', this.onHover, this)
-      .on('pointerout', this.onNotHover, this);
+      .on('pointerout', this.onNotHover, this)
 
-    //TODO loot randomizere
+    //TODO hook into smart contract
     this.loot = {
       weaponsOrArmor: 'weapons',
       type: 'twoHandedSword',
@@ -26,16 +26,13 @@ export default class Loot extends Phaser.Physics.Arcade.Sprite{
         crit: 1,
       },
     }
-
-    scene.add.existing(this);
-    scene.physics.add.existing(this);
-
+    scene.add.existing(this)
+    scene.physics.add.existing(this)
   }
 
-  onClick(e) {
-    console.log(e);
-    let newArray = this.scene.player.inventory.items.weapons.slice();
-    newArray.push(this.loot);
+  onClick() {
+    let newArray = this.scene.player.inventory.items.weapons.slice()
+    newArray.push(this.loot)
 
     this.scene.player.inventory = {
       gold: (this.scene.player.inventory.gold += Phaser.Math.Between(1, 25)),
@@ -47,21 +44,19 @@ export default class Loot extends Phaser.Physics.Arcade.Sprite{
       weapons: newArray,
     }
 
-    this.setVisible(false).removeInteractive();
-    console.log(this.scene.player.inventory);
+    this.setVisible(false).removeInteractive()
+    console.log(this.scene.player.inventory)
   }
 
   onHover() {
-    this.setTint('0x000000');
+    this.setTint('0x000000')
   }
 
   onNotHover() {
-    this.clearTint();
+    this.clearTint()
   }
 
-
-  //return interval
   goingTo(player) {
-    return this.loot;
+    return this.loot
   }
 }

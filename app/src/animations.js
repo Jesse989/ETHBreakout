@@ -159,10 +159,10 @@ var anims = {
     repeat: 0,
     yoyo: true
   },
-};
+}
 
 var directionNames = Object.keys(directions)
-var motions = Object.keys(anims);
-var knightMotions = Object.keys(knightAnims);
+var motions = Object.keys(anims)
+var knightMotions = Object.keys(knightAnims)
 
-export { createAnimations, directionNames, motions };
+export { createAnimations, directionNames, motions }
